@@ -18,4 +18,9 @@
             // Salva o PDF
             pdf.save("formulario.pdf");
         }
+        const elemento = document.getElementById('elemento');
+if (elemento) {
+    elemento.classList.add('nova-classe');
+}
+
     </script>
